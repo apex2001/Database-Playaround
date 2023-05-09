@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+
+div{
+    background-color: #E4F9F5;
+}
+
+h1{
+    margin-top: 0;
+    text-align: center;
+}
+
+.red{
+    background-color: red;
+    border: solid 20px;
+    height: 200px;
+    padding: 0px;
+    margin-left: 260px;
+    width: 200px;
+}
+
+.blue{
+    background-color: yellow;
+    border: solid 10px;
+    height: 200px;
+    margin-left: 500px;
+    width: 200px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+}
