@@ -1,0 +1,53 @@
+/*sauce: https://www.youtube.com/watch?v=sRVixiSpWdg*/
+body{
+    background-color: black;
+}
+
+h1{
+    text-transform: uppercase;
+}
+.center{
+    width: 50%;
+    /*margin-left: 25%;
+    margin-top: 100px;*/
+    text-align: center;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.wrapper h1{
+    line-height: 1;
+    color: transparent;
+    background-image: linear-gradient(to left,#2ecc71, #3498db, #9b59b6, #f39c12);
+    -webkit-background-clip: text;
+    animation: animate 1s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+}
+
+.wrapper p{
+    line-height: 1;
+    color: transparent;
+    background-image: linear-gradient(to right,#2ecc71, #3498db, #9b59b6, #f39c12);
+    -webkit-background-clip: text;
+    animation: animate 1s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 100% 0;
+    }
+    100%{
+        background-position: 0 100%;
+    }
+}
