@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    /*since margin doesn't exist here, this solution is right*/
+    .blue-box{
+      position: relative;
+      background-color: blue;
+      width: 500px;
+      height: 300px;
+      margin-left: 200px;
+      margin-top: 200px;
+      /*use top and left instead of mar...*/
+    }
+    .red-circle{
+      position: absolute;
+      background-color: red;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-top: 150px;
+      margin-left: 250px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+  </div>
+
+</body>
+
+</html>

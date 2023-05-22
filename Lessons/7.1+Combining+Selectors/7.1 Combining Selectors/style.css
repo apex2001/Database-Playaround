@@ -1,0 +1,20 @@
+/* Write your code here: */
+h1, h2{ /*group selector*/
+    color: blueviolet;
+}
+
+.box > p{ /*parent child selector: parent > child - only one generation deep*/
+    color: firebrick;
+}
+
+.box li{   /*descendant selector syntax: ancestor descendant*/
+    color: blue;
+}
+
+li.done{ /*chaining selector: leave no space*/
+    color: seagreen;
+}
+
+ul p.done{  /*combine selectors*/
+    font-size: 0.5rem;
+}
