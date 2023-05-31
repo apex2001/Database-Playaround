@@ -20,3 +20,20 @@ h1{
 h3{
     color: #66BFBF;
 }
+
+.vinh-nav{
+    background-color: #666363;
+    height: 70px;
+}
+
+.nav-menu{
+    position: relative;
+    display: flex;
+    list-style: none;
+    margin-left: 50%;
+    top: 25%;
+}
+
+.item-title {
+    margin: 5px; 
+}
