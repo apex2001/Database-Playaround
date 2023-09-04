@@ -11,7 +11,7 @@ const Works = () => {
     return (
         <section id="works">
             <h2 className="worksTitle">My Portfolio</h2>
-            <span className="workDesc">I take pride in designing flexible applications.</span>
+            <span className="worksDesc">I take pride in designing flexible applications.</span>
             <div className="worksImgs">
                 <img src={Porfolio1} alt="" className="worksImg"/>
                 <img src={Porfolio2} alt="" className="worksImg"/>

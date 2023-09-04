@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './navbar.css'
 import logo from '../../assets/logo.png'
 import contactImg from '../../assets/contact.png'
-import {Link} from 'react-scroll'
+import {Link} from 'react-scroll';
 import menu from '../../assets/menu.png'
 
 const Navbar = () => {
@@ -16,6 +16,7 @@ const Navbar = () => {
                 <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>Portfolio</Link>
                 <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>Clients</Link>
             </div>
+            
             <button className='desktopMenuButton' onClick={() => {
                 document.getElementById('contact').scrollIntoView();
             }}>
